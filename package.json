@@ -2,14 +2,17 @@
   "name": "elysia-basics",
   "version": "1.0.50",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "bun run --watch src/index.ts"
+    "dev": "bun run --watch src/index.ts",
+    "fmt": "prettier --write .",
+    "fmt:check": "prettier --check .",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "elysia": "latest"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "prettier": "^3.4.2"
   },
   "module": "src/index.js"
 }
