@@ -14,10 +14,13 @@
 
 # production
 /build
+*.bun-build
 
 # misc
 .DS_Store
 *.pem
+/tmp
+.idea
 
 # debug
 npm-debug.log*
